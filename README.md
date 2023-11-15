@@ -35,3 +35,15 @@ options:
   --max-seconds MAX_SECONDS
                         Maximum duration in seconds of segmented audio files
 ```
+
+# Statistics
+Calculate statistics on the train, dev, and test splits (type/token counts, OOV rate):
+```sh
+usage: corpus_stats.py [-h] [--train TRAIN] [--dev DEV] [--test TEST]
+
+options:
+  -h, --help     show this help message and exit
+  --train TRAIN  Directory for train partition containing .txt files
+  --dev DEV      Directory for train partition containing .txt files
+  --test TEST    Directory for dev partition containing .txt files
+```
