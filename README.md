@@ -44,6 +44,6 @@ usage: corpus_stats.py [-h] [--train TRAIN] [--dev DEV] [--test TEST]
 options:
   -h, --help     show this help message and exit
   --train TRAIN  Directory for train partition containing .txt files
-  --dev DEV      Directory for train partition containing .txt files
-  --test TEST    Directory for dev partition containing .txt files
+  --dev DEV      Directory for dev partition containing .txt files
+  --test TEST    Directory for test partition containing .txt files
 ```

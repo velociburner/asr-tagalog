@@ -47,13 +47,13 @@ if __name__ == "__main__":
         "--dev",
         type=Path,
         default=Path("dev"),
-        help="Directory for train partition containing .txt files"
+        help="Directory for dev partition containing .txt files"
     )
     parser.add_argument(
         "--test",
         type=Path,
         default=Path("test"),
-        help="Directory for dev partition containing .txt files"
+        help="Directory for test partition containing .txt files"
     )
     args = parser.parse_args()
 
