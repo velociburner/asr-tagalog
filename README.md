@@ -47,3 +47,8 @@ options:
   --dev DEV      Directory for dev partition containing .txt files
   --test TEST    Directory for test partition containing .txt files
 ```
+
+# Training a model
+Follow the instructions in `train.ipynb` to fine-tune a pre-trained Whisper model on the newly created data and
+evaluate the results. Note: this has only been tested in Google Colab using a T4 GPU, so there is no guarantee it won't
+crash on another platform/architecture, including on CPU.
